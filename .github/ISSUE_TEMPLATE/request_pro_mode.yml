@@ -6,7 +6,7 @@ body:
   - type: textarea
     attributes:
       label: 请问 在存储库answer文件夹中的三个示例日志 哪一条日志出现了错误？
-      description: 示例日志: {sample1.log, sample2.log, sample3.log}
+      description: 示例日志: sample1.log, sample2.log, sample3.log
       placeholder: 请完整输入文件名
     validations:
       required: true

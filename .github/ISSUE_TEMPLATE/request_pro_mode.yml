@@ -23,6 +23,12 @@ body:
       placeholder: 填入你机型的开源内核仓库或者下载链接
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: 你的设备ID
+      placeholder: 如果你是从Freezer跳转至此, 那么设备ID已经复制至你的剪贴板
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: 当日志或使用出现问题时 你是否会先自行排查问题 而不是无脑询问？

@@ -6,7 +6,7 @@ body:
   - type: textarea
     attributes:
       label: 请问 在存储库answer文件夹中的三个示例日志 哪一条日志出现了错误？
-      description: 示例日志 {sample1.log, sample2.log, sample3.log}
+      description: 示例日志 sample1.log, sample2.log, sample3.log
       placeholder: 请完整输入文件名
     validations:
       required: true
@@ -19,7 +19,7 @@ body:
   - type: textarea
     attributes:
       label: 当你从旧版本升级至最新版本后发现无法变更配置选项 你觉得是什么导致的？
-      description: [1] 可能是配置文件或文件夹的权限问题, [2] 肯定是Freezer本身的问题
+      description: 1 可能是配置文件或文件夹的权限问题 | 2 肯定是Freezer本身的问题
       placeholder: 填入你机型的开源内核仓库或者下载链接
     validations:
       required: true

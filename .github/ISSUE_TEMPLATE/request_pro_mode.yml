@@ -1,0 +1,31 @@
+name: 专业模式申请
+description: 申请开启专业模式
+title: "[申请] "
+labels: ["request"]
+body:
+  - type: textarea
+    attributes:
+      label: 请问 在存储库answer文件夹中的三个示例日志 哪一条日志出现了错误？
+      description: 示例日志: {sample1.log, sample2.log, sample3.log}
+      placeholder: 请完整输入文件名
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 请问 Freezer的日志文件在哪里？
+      placeholder: 请完整输入文件路径
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 当你从旧版本升级至最新版本后发现无法变更配置选项 你觉得是什么导致的？
+      description: 1: 可能是配置文件或文件夹的权限问题, 2: 肯定是Freezer本身的问题
+      placeholder: 填入你机型的开源内核仓库或者下载链接
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: 当日志或使用出现问题时 你是否会先自行排查问题 而不是无脑询问？
+      options:
+        - label: 我确保出现问题时我会先自行排查问题所在
+          required: false

@@ -20,7 +20,7 @@ body:
     attributes:
       label: 当你从旧版本升级至最新版本后发现无法变更配置选项 你觉得是什么导致的？
       description: 1 可能是配置文件或文件夹的权限问题 | 2 肯定是Freezer本身的问题
-      placeholder: 填入你机型的开源内核仓库或者下载链接
+      placeholder: 
     validations:
       required: true
   - type: textarea
